@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE17F2B529B21AC200D4AB95 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE17F2B429B21AC200D4AB95 /* ContentView.swift */; };
+		BE17F2D129B2666B00D4AB95 /* DidomiButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE17F2D029B2666B00D4AB95 /* DidomiButtonStyle.swift */; };
+		BE17F2D429B2696B00D4AB95 /* IBMPlexSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BE17F2D329B2696B00D4AB95 /* IBMPlexSans-Bold.ttf */; };
+		BE17F2D729B3853400D4AB95 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE17F2D629B3853400D4AB95 /* WebView.swift */; };
+		BE17F2D929B38DEE00D4AB95 /* CustomVendor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE17F2D829B38DEE00D4AB95 /* CustomVendor.swift */; };
+		BE17F2DB29B3B1D000D4AB95 /* AdCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE17F2DA29B3B1D000D4AB95 /* AdCoordinator.swift */; };
+		BE17F2DD29B3B28400D4AB95 /* ViewControllerRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE17F2DC29B3B28400D4AB95 /* ViewControllerRepresentable.swift */; };
+		BE17F2DF29B4ACFC00D4AB95 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = BE17F2DE29B4ACFC00D4AB95 /* README.md */; };
+		BEF04F832940824D0042F22D /* Sample_App_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF04F822940824D0042F22D /* Sample_App_SwiftUIApp.swift */; };
+		BEF04F872940824E0042F22D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEF04F862940824E0042F22D /* Assets.xcassets */; };
+		BEF04F8A2940824E0042F22D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEF04F892940824E0042F22D /* Preview Assets.xcassets */; };
+		BEF04F92294084F10042F22D /* Didomi in Frameworks */ = {isa = PBXBuildFile; productRef = BEF04F91294084F10042F22D /* Didomi */; };
+		BEF04F95294085360042F22D /* GoogleMobileAds in Frameworks */ = {isa = PBXBuildFile; productRef = BEF04F94294085360042F22D /* GoogleMobileAds */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BE17F2B429B21AC200D4AB95 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BE17F2D029B2666B00D4AB95 /* DidomiButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DidomiButtonStyle.swift; sourceTree = "<group>"; };
+		BE17F2D329B2696B00D4AB95 /* IBMPlexSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexSans-Bold.ttf"; sourceTree = "<group>"; };
+		BE17F2D529B26A5400D4AB95 /* Sample-App-SwiftUI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Sample-App-SwiftUI-Info.plist"; sourceTree = SOURCE_ROOT; };
+		BE17F2D629B3853400D4AB95 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		BE17F2D829B38DEE00D4AB95 /* CustomVendor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomVendor.swift; sourceTree = "<group>"; };
+		BE17F2DA29B3B1D000D4AB95 /* AdCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdCoordinator.swift; sourceTree = "<group>"; };
+		BE17F2DC29B3B28400D4AB95 /* ViewControllerRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerRepresentable.swift; sourceTree = "<group>"; };
+		BE17F2DE29B4ACFC00D4AB95 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BEF04F7F2940824D0042F22D /* Sample App SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sample App SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEF04F822940824D0042F22D /* Sample_App_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample_App_SwiftUIApp.swift; sourceTree = "<group>"; };
+		BEF04F862940824E0042F22D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BEF04F892940824E0042F22D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BEF04F7C2940824D0042F22D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEF04F95294085360042F22D /* GoogleMobileAds in Frameworks */,
+				BEF04F92294084F10042F22D /* Didomi in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE17F2D229B2691000D4AB95 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				BE17F2D329B2696B00D4AB95 /* IBMPlexSans-Bold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		BEF04F762940824D0042F22D = {
+			isa = PBXGroup;
+			children = (
+				BE17F2DE29B4ACFC00D4AB95 /* README.md */,
+				BEF04F812940824D0042F22D /* Sample App SwiftUI */,
+				BEF04F802940824D0042F22D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BEF04F802940824D0042F22D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEF04F7F2940824D0042F22D /* Sample App SwiftUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BEF04F812940824D0042F22D /* Sample App SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				BE17F2D529B26A5400D4AB95 /* Sample-App-SwiftUI-Info.plist */,
+				BE17F2DA29B3B1D000D4AB95 /* AdCoordinator.swift */,
+				BE17F2B429B21AC200D4AB95 /* ContentView.swift */,
+				BE17F2D829B38DEE00D4AB95 /* CustomVendor.swift */,
+				BE17F2D029B2666B00D4AB95 /* DidomiButtonStyle.swift */,
+				BEF04F822940824D0042F22D /* Sample_App_SwiftUIApp.swift */,
+				BE17F2DC29B3B28400D4AB95 /* ViewControllerRepresentable.swift */,
+				BE17F2D629B3853400D4AB95 /* WebView.swift */,
+				BEF04F862940824E0042F22D /* Assets.xcassets */,
+				BE17F2D229B2691000D4AB95 /* Fonts */,
+				BEF04F882940824E0042F22D /* Preview Content */,
+			);
+			path = "Sample App SwiftUI";
+			sourceTree = "<group>";
+		};
+		BEF04F882940824E0042F22D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BEF04F892940824E0042F22D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BEF04F7E2940824D0042F22D /* Sample App SwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEF04F8D2940824E0042F22D /* Build configuration list for PBXNativeTarget "Sample App SwiftUI" */;
+			buildPhases = (
+				BEF04F7B2940824D0042F22D /* Sources */,
+				BEF04F7C2940824D0042F22D /* Frameworks */,
+				BEF04F7D2940824D0042F22D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sample App SwiftUI";
+			packageProductDependencies = (
+				BEF04F91294084F10042F22D /* Didomi */,
+				BEF04F94294085360042F22D /* GoogleMobileAds */,
+			);
+			productName = "Sample App SwiftUI";
+			productReference = BEF04F7F2940824D0042F22D /* Sample App SwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BEF04F772940824D0042F22D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					BEF04F7E2940824D0042F22D = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = BEF04F7A2940824D0042F22D /* Build configuration list for PBXProject "Sample App SwiftUI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BEF04F762940824D0042F22D;
+			packageReferences = (
+				BEF04F90294084F10042F22D /* XCRemoteSwiftPackageReference "didomi-ios-sdk-spm" */,
+				BEF04F93294085360042F22D /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */,
+			);
+			productRefGroup = BEF04F802940824D0042F22D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEF04F7E2940824D0042F22D /* Sample App SwiftUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BEF04F7D2940824D0042F22D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEF04F8A2940824E0042F22D /* Preview Assets.xcassets in Resources */,
+				BEF04F872940824E0042F22D /* Assets.xcassets in Resources */,
+				BE17F2DF29B4ACFC00D4AB95 /* README.md in Resources */,
+				BE17F2D429B2696B00D4AB95 /* IBMPlexSans-Bold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BEF04F7B2940824D0042F22D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE17F2D729B3853400D4AB95 /* WebView.swift in Sources */,
+				BE17F2B529B21AC200D4AB95 /* ContentView.swift in Sources */,
+				BEF04F832940824D0042F22D /* Sample_App_SwiftUIApp.swift in Sources */,
+				BE17F2DB29B3B1D000D4AB95 /* AdCoordinator.swift in Sources */,
+				BE17F2D929B38DEE00D4AB95 /* CustomVendor.swift in Sources */,
+				BE17F2DD29B3B28400D4AB95 /* ViewControllerRepresentable.swift in Sources */,
+				BE17F2D129B2666B00D4AB95 /* DidomiButtonStyle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BEF04F8B2940824E0042F22D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BEF04F8C2940824E0042F22D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BEF04F8E2940824E0042F22D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Sample App SwiftUI/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Sample-App-SwiftUI-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.didomi.Sample-App-SwiftUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BEF04F8F2940824E0042F22D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Sample App SwiftUI/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Sample-App-SwiftUI-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.didomi.Sample-App-SwiftUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BEF04F7A2940824D0042F22D /* Build configuration list for PBXProject "Sample App SwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEF04F8B2940824E0042F22D /* Debug */,
+				BEF04F8C2940824E0042F22D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEF04F8D2940824E0042F22D /* Build configuration list for PBXNativeTarget "Sample App SwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEF04F8E2940824E0042F22D /* Debug */,
+				BEF04F8F2940824E0042F22D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BEF04F90294084F10042F22D /* XCRemoteSwiftPackageReference "didomi-ios-sdk-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/didomi/didomi-ios-sdk-spm";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		BEF04F93294085360042F22D /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googleads/swift-package-manager-google-mobile-ads.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BEF04F91294084F10042F22D /* Didomi */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BEF04F90294084F10042F22D /* XCRemoteSwiftPackageReference "didomi-ios-sdk-spm" */;
+			productName = Didomi;
+		};
+		BEF04F94294085360042F22D /* GoogleMobileAds */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BEF04F93294085360042F22D /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */;
+			productName = GoogleMobileAds;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = BEF04F772940824D0042F22D /* Project object */;
+}
