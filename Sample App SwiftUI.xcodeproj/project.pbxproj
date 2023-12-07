@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		BE17F2B529B21AC200D4AB95 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE17F2B429B21AC200D4AB95 /* ContentView.swift */; };
 		BE17F2D129B2666B00D4AB95 /* DidomiButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE17F2D029B2666B00D4AB95 /* DidomiButtonStyle.swift */; };
-		BE17F2D429B2696B00D4AB95 /* IBMPlexSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BE17F2D329B2696B00D4AB95 /* IBMPlexSans-Bold.ttf */; };
 		BE17F2D729B3853400D4AB95 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE17F2D629B3853400D4AB95 /* WebView.swift */; };
 		BE17F2D929B38DEE00D4AB95 /* CustomVendor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE17F2D829B38DEE00D4AB95 /* CustomVendor.swift */; };
 		BE17F2DB29B3B1D000D4AB95 /* AdCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE17F2DA29B3B1D000D4AB95 /* AdCoordinator.swift */; };
 		BE17F2DD29B3B28400D4AB95 /* ViewControllerRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE17F2DC29B3B28400D4AB95 /* ViewControllerRepresentable.swift */; };
 		BE17F2DF29B4ACFC00D4AB95 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = BE17F2DE29B4ACFC00D4AB95 /* README.md */; };
+		BE2DA2622B20FD8100D8FA18 /* Montserrat.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BE2DA2612B20F92800D8FA18 /* Montserrat.ttf */; };
 		BEF04F832940824D0042F22D /* Sample_App_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF04F822940824D0042F22D /* Sample_App_SwiftUIApp.swift */; };
 		BEF04F872940824E0042F22D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEF04F862940824E0042F22D /* Assets.xcassets */; };
 		BEF04F8A2940824E0042F22D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEF04F892940824E0042F22D /* Preview Assets.xcassets */; };
@@ -25,13 +25,13 @@
 /* Begin PBXFileReference section */
 		BE17F2B429B21AC200D4AB95 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BE17F2D029B2666B00D4AB95 /* DidomiButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DidomiButtonStyle.swift; sourceTree = "<group>"; };
-		BE17F2D329B2696B00D4AB95 /* IBMPlexSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexSans-Bold.ttf"; sourceTree = "<group>"; };
 		BE17F2D529B26A5400D4AB95 /* Sample-App-SwiftUI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Sample-App-SwiftUI-Info.plist"; sourceTree = SOURCE_ROOT; };
 		BE17F2D629B3853400D4AB95 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 		BE17F2D829B38DEE00D4AB95 /* CustomVendor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomVendor.swift; sourceTree = "<group>"; };
 		BE17F2DA29B3B1D000D4AB95 /* AdCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdCoordinator.swift; sourceTree = "<group>"; };
 		BE17F2DC29B3B28400D4AB95 /* ViewControllerRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerRepresentable.swift; sourceTree = "<group>"; };
 		BE17F2DE29B4ACFC00D4AB95 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BE2DA2612B20F92800D8FA18 /* Montserrat.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Montserrat.ttf; sourceTree = "<group>"; };
 		BEF04F7F2940824D0042F22D /* Sample App SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sample App SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEF04F822940824D0042F22D /* Sample_App_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample_App_SwiftUIApp.swift; sourceTree = "<group>"; };
 		BEF04F862940824E0042F22D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -54,7 +54,7 @@
 		BE17F2D229B2691000D4AB95 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				BE17F2D329B2696B00D4AB95 /* IBMPlexSans-Bold.ttf */,
+				BE2DA2612B20F92800D8FA18 /* Montserrat.ttf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -169,9 +169,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BEF04F8A2940824E0042F22D /* Preview Assets.xcassets in Resources */,
+				BE2DA2622B20FD8100D8FA18 /* Montserrat.ttf in Resources */,
 				BEF04F872940824E0042F22D /* Assets.xcassets in Resources */,
 				BE17F2DF29B4ACFC00D4AB95 /* README.md in Resources */,
-				BE17F2D429B2696B00D4AB95 /* IBMPlexSans-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
