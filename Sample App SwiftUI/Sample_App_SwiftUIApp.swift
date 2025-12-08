@@ -50,7 +50,7 @@ class AppDelegate: NSObject, UIApplicationDelegate {
     
     func loadVendor() {
         
-        let vendorId = "c:customven-gPVkJxXD"
+        let vendorId = "customven-gPVkJxXD"
         let didomi = Didomi.shared
         let status = didomi.getUserStatus()
         let isVendorEnabled = status.vendors.global.enabled.contains(vendorId)
